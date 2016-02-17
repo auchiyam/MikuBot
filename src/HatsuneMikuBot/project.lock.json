@@ -1,0 +1,314 @@
+{
+  "locked": false,
+  "version": -9996,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "Discord.Net/0.7.3": {
+        "dependencies": {
+          "Newtonsoft.Json": "7.0.1",
+          "RestSharp": "105.2.3",
+          "WebSocketSharp": "1.0.3-rc9"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http",
+          "mscorlib",
+          "System",
+          "System.Core",
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/dnx451/Discord.Net.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Discord.Net.dll": {}
+        }
+      },
+      "Discord.Net.Commands/0.7.0": {
+        "dependencies": {
+          "Discord.Net": "0.7.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib",
+          "System",
+          "System.Core",
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/dnx451/Discord.Net.Commands.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/Discord.Net.Commands.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.4.9": {
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.0.0-beta-23019": {
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ]
+      },
+      "Newtonsoft.Json/7.0.1": {
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RestSharp/105.2.3": {
+        "compile": {
+          "lib/net451/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RestSharp.dll": {}
+        }
+      },
+      "System.Linq/4.0.0-beta-23019": {},
+      "System.Runtime/4.0.0-beta-23019": {},
+      "System.Threading/4.0.10-beta-23019": {
+        "dependencies": {
+          "System.Runtime": "4.0.0-beta-23019",
+          "System.Threading.Tasks": "4.0.0-beta-23019"
+        },
+        "compile": {
+          "ref/dotnet/System.Threading.dll": {}
+        }
+      },
+      "System.Threading.Tasks/4.0.0-beta-23019": {},
+      "WebSocketSharp/1.0.3-rc9": {
+        "compile": {
+          "lib/websocket-sharp.dll": {}
+        },
+        "runtime": {
+          "lib/websocket-sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Discord.Net/0.7.3": {
+      "sha512": "MIE0t7o6XO1br7WbvM0i6VsWDA1acNjvCdTtZTUQwex8qBfiy6FL+ksRxiMDEQPDZW8sTWrPTvI718jmh9JZ6A==",
+      "files": [
+        "Discord.Net.0.7.3.nupkg",
+        "Discord.Net.0.7.3.nupkg.sha512",
+        "Discord.Net.nuspec",
+        "lib/dnx451/Discord.Net.dll",
+        "lib/dnx451/Discord.Net.xml",
+        "lib/net45/Discord.Net.dll",
+        "lib/net45/Discord.Net.xml"
+      ]
+    },
+    "Discord.Net.Commands/0.7.0": {
+      "sha512": "Rp6OUT5YEqS9COS6syXhogz61GY1iCQyQT8Hb45gswjUE+3MfWSjgqD/UWmMhg5UelvnDSDL3M8rqXVLOTNueQ==",
+      "files": [
+        "Discord.Net.Commands.0.7.0.nupkg",
+        "Discord.Net.Commands.0.7.0.nupkg.sha512",
+        "Discord.Net.Commands.nuspec",
+        "lib/dnx451/Discord.Net.Commands.dll",
+        "lib/dnx451/Discord.Net.Commands.xml",
+        "lib/net45/Discord.Net.Commands.dll",
+        "lib/net45/Discord.Net.Commands.xml"
+      ]
+    },
+    "HtmlAgilityPack/1.4.9": {
+      "sha512": "anZIsi7bbHZ35ZZzvCA+gVWC/mEXVhcJjJvxr3wzUEDsOE4uk0Fa0ZiaxVn83AZpVKVO4RHyqamPkzzJbMUgmQ==",
+      "files": [
+        "HAPIcon.png",
+        "HtmlAgilityPack.1.4.9.nupkg",
+        "HtmlAgilityPack.1.4.9.nupkg.sha512",
+        "HtmlAgilityPack.nuspec",
+        "readme.txt",
+        "lib/Net20/HtmlAgilityPack.dll",
+        "lib/Net20/HtmlAgilityPack.pdb",
+        "lib/Net20/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.pri",
+        "lib/NetCore45/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/sl3-wp/_._",
+        "lib/sl4/HtmlAgilityPack.dll",
+        "lib/sl4/HtmlAgilityPack.pdb",
+        "lib/sl4/HtmlAgilityPack.XML",
+        "lib/sl5/HtmlAgilityPack.dll",
+        "lib/sl5/HtmlAgilityPack.pdb",
+        "lib/sl5/HtmlAgilityPack.XML"
+      ]
+    },
+    "Microsoft.CSharp/4.0.0-beta-23019": {
+      "sha512": "TsYR8ylpBw89cxCTzA9eD8wqLR5u4TnNvUCLU7Qt9TlbxmNM0jPaz80L4N+W81kEoOpchlckGGCTA4JVemmEVA==",
+      "files": [
+        "Microsoft.CSharp.4.0.0-beta-23019.nupkg",
+        "Microsoft.CSharp.4.0.0-beta-23019.nupkg.sha512",
+        "Microsoft.CSharp.nuspec",
+        "lib/dotnet/Microsoft.CSharp.dll",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/win8/_._",
+        "ref/dotnet/Microsoft.CSharp.dll",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "Newtonsoft.Json/7.0.1": {
+      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+      "files": [
+        "Newtonsoft.Json.7.0.1.nupkg",
+        "Newtonsoft.Json.7.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "RestSharp/105.2.3": {
+      "sha512": "50LkciOclb7Lza9QXqR9reKeUoPlDQiFD4iBdOmd6twOBmTtqEFIOXQgdDdsTHQg4HcGh6EvrM6gN1X72vkJLA==",
+      "files": [
+        "readme.txt",
+        "RestSharp.105.2.3.nupkg",
+        "RestSharp.105.2.3.nupkg.sha512",
+        "RestSharp.nuspec",
+        "lib/MonoAndroid10/RestSharp.dll",
+        "lib/MonoAndroid10/RestSharp.xml",
+        "lib/MonoTouch10/RestSharp.dll",
+        "lib/MonoTouch10/RestSharp.xml",
+        "lib/net35/RestSharp.dll",
+        "lib/net35/RestSharp.xml",
+        "lib/net4/RestSharp.dll",
+        "lib/net4/RestSharp.xml",
+        "lib/net4-client/RestSharp.dll",
+        "lib/net4-client/RestSharp.xml",
+        "lib/net45/RestSharp.dll",
+        "lib/net45/RestSharp.xml",
+        "lib/net451/RestSharp.dll",
+        "lib/net451/RestSharp.xml",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/net46/RestSharp.dll",
+        "lib/net46/RestSharp.xml",
+        "lib/sl5/RestSharp.dll",
+        "lib/sl5/RestSharp.xml",
+        "lib/windowsphone8/RestSharp.dll",
+        "lib/windowsphone8/RestSharp.xml",
+        "lib/windowsphone81/RestSharp.dll",
+        "lib/windowsphone81/RestSharp.xml",
+        "lib/Xamarin.iOS10/RestSharp.dll",
+        "lib/Xamarin.iOS10/RestSharp.xml"
+      ]
+    },
+    "System.Linq/4.0.0-beta-23019": {
+      "sha512": "kw6QeVsZWOKdonnArSWFerSyXCsr2LmGqT9Z2W7HFf7yN09o6O8YLfIALlFnhD4CXgJZYC8ebgMPC6uK9IZfOQ==",
+      "files": [
+        "System.Linq.4.0.0-beta-23019.nupkg",
+        "System.Linq.4.0.0-beta-23019.nupkg.sha512",
+        "System.Linq.nuspec",
+        "lib/dotnet/System.Linq.dll",
+        "lib/net45/_._",
+        "lib/netcore50/System.Linq.dll",
+        "lib/win8/_._",
+        "ref/dotnet/System.Linq.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Linq.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.Runtime/4.0.0-beta-23019": {
+      "sha512": "BUB/5CSzjDRQlifthFztT1eWmnnb2QCK2WKd0kxAt8ytB+2oXiVqpSvcbtzRsidp8wGdG51fyolfiznodSIX9A==",
+      "files": [
+        "License.rtf",
+        "System.Runtime.4.0.0-beta-23019.nupkg",
+        "System.Runtime.4.0.0-beta-23019.nupkg.sha512",
+        "System.Runtime.nuspec",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "ref/dotnet/System.Runtime.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "System.Threading/4.0.10-beta-23019": {
+      "sha512": "xJYu7J22Fc4G7pfUlPBYuRj4Rla0VkaqU77SW2DyT/oMq1KQmmR7oQnQ7yq/yig0St17I7rYZYBbSrNbe1l5+g==",
+      "files": [
+        "System.Threading.4.0.10-beta-23019.nupkg",
+        "System.Threading.4.0.10-beta-23019.nupkg.sha512",
+        "System.Threading.nuspec",
+        "lib/DNXCore50/System.Threading.dll",
+        "lib/net46/_._",
+        "lib/netcore50/System.Threading.dll",
+        "ref/dotnet/System.Threading.dll",
+        "ref/net46/_._",
+        "runtimes/win8-aot/lib/netcore50/System.Threading.dll"
+      ]
+    },
+    "System.Threading.Tasks/4.0.0-beta-23019": {
+      "sha512": "frcOMzzaVN9AHhlJRLKOqm9WHws2byLa+CDFUZIQzUWqrpubH0CDtNj1je5lJpD1QDwJBmnXepKUXCwt/wt9Ew==",
+      "files": [
+        "License.rtf",
+        "System.Threading.Tasks.4.0.0-beta-23019.nupkg",
+        "System.Threading.Tasks.4.0.0-beta-23019.nupkg.sha512",
+        "System.Threading.Tasks.nuspec",
+        "lib/net45/_._",
+        "lib/win8/_._",
+        "ref/dotnet/System.Threading.Tasks.dll",
+        "ref/net45/_._",
+        "ref/netcore50/System.Threading.Tasks.dll",
+        "ref/win8/_._"
+      ]
+    },
+    "WebSocketSharp/1.0.3-rc9": {
+      "sha512": "+HHS2VBt9cQNtfmdXY/XcKejYYABiSIXbKkeZwK03ccyQiLpYVcuMY2g+E2sNxuAWPgDAclRRBMRLAHr9gnx6Q==",
+      "files": [
+        "WebSocketSharp.1.0.3-rc9.nupkg",
+        "WebSocketSharp.1.0.3-rc9.nupkg.sha512",
+        "WebSocketSharp.nuspec",
+        "lib/websocket-sharp.dll",
+        "lib/websocket-sharp.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Discord.Net.Commands >= 0.7.0",
+      "Discord.Net >= 0.7.3",
+      "Newtonsoft.Json >= 7.0.1",
+      "HtmlAgilityPack >= 1.4.9"
+    ],
+    "DNX,Version=v4.5.1": [
+      "System.Linq >= 4.0.0-beta-23019",
+      "System.Threading >= 4.0.10-beta-23019",
+      "Microsoft.CSharp >= 4.0.0-beta-23019",
+      "fx/System.Windows.Forms >= 4.0.0.0",
+      "fx/System.Drawing >= 4.0.0.0"
+    ]
+  }
+}
